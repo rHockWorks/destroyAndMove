@@ -64,7 +64,7 @@ class MoveComponent: GKAgent2D, GKAgentDelegate {
         return closestMoveComponent
     }
     
-
+ 
     override func update(deltaTime seconds: TimeInterval) {
 
         super.update(deltaTime: seconds)
