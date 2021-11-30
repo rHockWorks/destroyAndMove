@@ -15,9 +15,21 @@
 		32792C482755850900F3B364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32792C462755850900F3B364 /* Main.storyboard */; };
 		32792C4A2755850F00F3B364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32792C492755850F00F3B364 /* Assets.xcassets */; };
 		32792C4D2755850F00F3B364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32792C4B2755850F00F3B364 /* LaunchScreen.storyboard */; };
-		32792C572755851000F3B364 /* destroyAndMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C562755851000F3B364 /* destroyAndMoveTests.swift */; };
-		32792C612755851000F3B364 /* destroyAndMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C602755851000F3B364 /* destroyAndMoveUITests.swift */; };
-		32792C632755851000F3B364 /* destroyAndMoveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C622755851000F3B364 /* destroyAndMoveUITestsLaunchTests.swift */; };
+		32792C70275587F100F3B364 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C6F275587F100F3B364 /* Helper.swift */; };
+		32792C722755883900F3B364 /* StageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C712755883900F3B364 /* StageObject.swift */; };
+		32792C742755889900F3B364 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C732755889900F3B364 /* Enums.swift */; };
+		32792C7727558BF000F3B364 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C7627558BF000F3B364 /* EntityManager.swift */; };
+		32792C7927558EB800F3B364 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C7827558EB800F3B364 /* Stage.swift */; };
+		32792C7C27558EF900F3B364 /* Critter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C7B27558EF900F3B364 /* Critter.swift */; };
+		32792C7E2755934800F3B364 /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C7D2755934800F3B364 /* SpriteComponent.swift */; };
+		32792C812755946A00F3B364 /* ObjectTypeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C802755946A00F3B364 /* ObjectTypeComponent.swift */; };
+		32792C83275595A900F3B364 /* MoveComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C82275595A900F3B364 /* MoveComponent.swift */; };
+		32792C85275596C600F3B364 /* MeleeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C84275596C600F3B364 /* MeleeComponent.swift */; };
+		32792C872755979000F3B364 /* TableHealthComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C862755979000F3B364 /* TableHealthComponent.swift */; };
+		32792C892755989C00F3B364 /* MoveBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C882755989C00F3B364 /* MoveBehaviour.swift */; };
+		32792C8C27559D6F00F3B364 /* CritterComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C8B27559D6F00F3B364 /* CritterComponent.swift */; };
+		32792C8E2755A20300F3B364 /* StageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C8D2755A20300F3B364 /* StageComponent.swift */; };
+		32792C902755A71C00F3B364 /* TableDetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32792C8F2755A71C00F3B364 /* TableDetailComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +60,22 @@
 		32792C492755850F00F3B364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32792C4C2755850F00F3B364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32792C522755851000F3B364 /* destroyAndMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = destroyAndMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		32792C562755851000F3B364 /* destroyAndMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destroyAndMoveTests.swift; sourceTree = "<group>"; };
 		32792C5C2755851000F3B364 /* destroyAndMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = destroyAndMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		32792C602755851000F3B364 /* destroyAndMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destroyAndMoveUITests.swift; sourceTree = "<group>"; };
-		32792C622755851000F3B364 /* destroyAndMoveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destroyAndMoveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32792C6F275587F100F3B364 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		32792C712755883900F3B364 /* StageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageObject.swift; sourceTree = "<group>"; };
+		32792C732755889900F3B364 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		32792C7627558BF000F3B364 /* EntityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		32792C7827558EB800F3B364 /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		32792C7B27558EF900F3B364 /* Critter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Critter.swift; sourceTree = "<group>"; };
+		32792C7D2755934800F3B364 /* SpriteComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteComponent.swift; sourceTree = "<group>"; };
+		32792C802755946A00F3B364 /* ObjectTypeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTypeComponent.swift; sourceTree = "<group>"; };
+		32792C82275595A900F3B364 /* MoveComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveComponent.swift; sourceTree = "<group>"; };
+		32792C84275596C600F3B364 /* MeleeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeleeComponent.swift; sourceTree = "<group>"; };
+		32792C862755979000F3B364 /* TableHealthComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHealthComponent.swift; sourceTree = "<group>"; };
+		32792C882755989C00F3B364 /* MoveBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveBehaviour.swift; sourceTree = "<group>"; };
+		32792C8B27559D6F00F3B364 /* CritterComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterComponent.swift; sourceTree = "<group>"; };
+		32792C8D2755A20300F3B364 /* StageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageComponent.swift; sourceTree = "<group>"; };
+		32792C8F2755A71C00F3B364 /* TableDetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDetailComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				32792C3B2755850900F3B364 /* destroyAndMove */,
-				32792C552755851000F3B364 /* destroyAndMoveTests */,
-				32792C5F2755851000F3B364 /* destroyAndMoveUITests */,
 				32792C3A2755850900F3B364 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +128,10 @@
 				32792C3E2755850900F3B364 /* GameScene.sks */,
 				32792C402755850900F3B364 /* Actions.sks */,
 				32792C422755850900F3B364 /* GameScene.swift */,
+				32792C732755889900F3B364 /* Enums.swift */,
+				32792C7A27558EED00F3B364 /* Entities */,
+				32792C7F2755935100F3B364 /* Components */,
+				32792C6F275587F100F3B364 /* Helper.swift */,
 				32792C442755850900F3B364 /* GameViewController.swift */,
 				32792C462755850900F3B364 /* Main.storyboard */,
 				32792C492755850F00F3B364 /* Assets.xcassets */,
@@ -114,21 +140,39 @@
 			path = destroyAndMove;
 			sourceTree = "<group>";
 		};
-		32792C552755851000F3B364 /* destroyAndMoveTests */ = {
+		32792C7A27558EED00F3B364 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				32792C562755851000F3B364 /* destroyAndMoveTests.swift */,
+				32792C7627558BF000F3B364 /* EntityManager.swift */,
+				32792C7827558EB800F3B364 /* Stage.swift */,
+				32792C712755883900F3B364 /* StageObject.swift */,
+				32792C7B27558EF900F3B364 /* Critter.swift */,
 			);
-			path = destroyAndMoveTests;
+			path = Entities;
 			sourceTree = "<group>";
 		};
-		32792C5F2755851000F3B364 /* destroyAndMoveUITests */ = {
+		32792C7F2755935100F3B364 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				32792C602755851000F3B364 /* destroyAndMoveUITests.swift */,
-				32792C622755851000F3B364 /* destroyAndMoveUITestsLaunchTests.swift */,
+				32792C7D2755934800F3B364 /* SpriteComponent.swift */,
+				32792C8D2755A20300F3B364 /* StageComponent.swift */,
+				32792C802755946A00F3B364 /* ObjectTypeComponent.swift */,
+				32792C8F2755A71C00F3B364 /* TableDetailComponent.swift */,
+				32792C862755979000F3B364 /* TableHealthComponent.swift */,
+				32792C8B27559D6F00F3B364 /* CritterComponent.swift */,
+				32792C82275595A900F3B364 /* MoveComponent.swift */,
+				32792C84275596C600F3B364 /* MeleeComponent.swift */,
+				32792C8A275598D700F3B364 /* Behaviour */,
 			);
-			path = destroyAndMoveUITests;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		32792C8A275598D700F3B364 /* Behaviour */ = {
+			isa = PBXGroup;
+			children = (
+				32792C882755989C00F3B364 /* MoveBehaviour.swift */,
+			);
+			path = Behaviour;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +309,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				32792C432755850900F3B364 /* GameScene.swift in Sources */,
+				32792C902755A71C00F3B364 /* TableDetailComponent.swift in Sources */,
+				32792C8C27559D6F00F3B364 /* CritterComponent.swift in Sources */,
+				32792C892755989C00F3B364 /* MoveBehaviour.swift in Sources */,
+				32792C812755946A00F3B364 /* ObjectTypeComponent.swift in Sources */,
+				32792C7727558BF000F3B364 /* EntityManager.swift in Sources */,
+				32792C7927558EB800F3B364 /* Stage.swift in Sources */,
 				32792C452755850900F3B364 /* GameViewController.swift in Sources */,
 				32792C3D2755850900F3B364 /* AppDelegate.swift in Sources */,
+				32792C70275587F100F3B364 /* Helper.swift in Sources */,
+				32792C7E2755934800F3B364 /* SpriteComponent.swift in Sources */,
+				32792C83275595A900F3B364 /* MoveComponent.swift in Sources */,
+				32792C742755889900F3B364 /* Enums.swift in Sources */,
+				32792C85275596C600F3B364 /* MeleeComponent.swift in Sources */,
+				32792C7C27558EF900F3B364 /* Critter.swift in Sources */,
+				32792C872755979000F3B364 /* TableHealthComponent.swift in Sources */,
+				32792C8E2755A20300F3B364 /* StageComponent.swift in Sources */,
+				32792C722755883900F3B364 /* StageObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32792C572755851000F3B364 /* destroyAndMoveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +340,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32792C632755851000F3B364 /* destroyAndMoveUITestsLaunchTests.swift in Sources */,
-				32792C612755851000F3B364 /* destroyAndMoveUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +507,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,7 +519,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -479,6 +536,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,7 +548,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  destroyAndMove
 //
-//  Created by FUML on 29/11/2021.
+//  Created by Rudolph Hock on 29/11/2021.
 //
 
 import UIKit
